@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --cor-de-fundo: #f5f5f5;
+  --cor-de-fundo-menu: #ffffff;
+  --cor-do-link: #464646;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+main {
+  margin-top: 32px;
+}
+
+.email_link {
+  font-weight: 700;
+}
+a {
+  color: var(--cor-do-link);
+  text-decoration: none;
+}
+.topo {
+  width: 1136px;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+  align-items: center;
+  margin: auto;
+}
+
+.brilho {
+  width: 24px;
+  height: 24px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info_iniciais {
+  height: 368px;
+  width: 1136px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 17px;
+  margin: auto;
+}
+
+.foto-perfil {
+  height: 360px;
+  width: 360px;
+}
+
+.principal {
+  width: 751px;
+  height: 246px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.textos {
+  color: var(--cor-do-link);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61.05px;
+  margin: 0% 12px;
+}
+
+.apresentacao {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25.83px;
+  margin: 20px;
+}
+
+.social_media {
+  display: flex;
+  gap: 32px;
+  margin: 20px;
+}
+
+.sobre_mim {
+  background-color: #eaf2fd;
+  width: 100%;
+  height: 300px;
+  padding: 64px;
+  margin-top: 90px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.57px;
+  color: var(--cor-do-link);
+}
+
+.sobre_mim_textos {
+  width: 1136px;
+  height: 255px;
+  margin: 40px 1122px 152px 320px;
+}
+
+.sobre_mim_paragrafos {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.78px;
+  width: 751px;
+  height: 80px;
+  margin: 0;
+  text-align: justify;
+}
+
+.outros {
+  width: 100%;
+  height: 625px;
+}
+
+.skills {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.html,
+.css,
+.js,
+.nodejs,
+.react,
+.php {
+  width: 176px;
+  height: 174px;
+  align-items: end;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 18.78px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 8px;
+  background-color: #ffffff;
+  padding-left: 15px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.57px;
+  color: var(--cor-do-link);
+  text-align: center;
+  margin: 32px;
+}
+
+.hobbies {
+  margin-top: 88px;
+}
+
+.form_profissional {
+  width: 100%;
+  height: 581px;
+  background-color: #eaf2fd;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faculdade,
+.curso_one {
+  width: 368px;
+  height: 347px;
+}
+.logo_one,
+.logo_cest {
+  width: 368px;
+  height: 286px;
+}
+
+.titulo_xp {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.83px;
+  margin: 0;
+  color: var(--cor-do-link);
+}
+
+.ano_xp {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.78px;
+  color: var(--cor-do-link);
+}
+
+.certificados {
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+}
+
+.decoder_img {
+  width: 772px;
+  height: 426px;
+}
+
+.decoder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem-jogo {
+  width: 752px;
+  height: 406px;
+}
+
+.botao_repostorio {
+  width: 116px;
+  height: 51px;
+  border: 1px #2a7ae4 solid;
+  padding: 16px;
+  color: #2a7ae4;
+}
+
+.botao_demo {
+  width: 116px;
+  height: 51px;
+  background-color: #2a7ae4;
+  padding: 16px;
+  color: #ffffff;
+}
+
+#contato {
+  width: 100%;
+  height: 890px;
+  background-color: #eaf2fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.formulario,
+.form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.msg-contato {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.78px;
+}
+
+.contato-imagem {
+  display: flex;
+  align-items: center;
+}
+
+.nome-dev {
+  width: 100%;
+  height: 80px;
+  padding: 32px;
+  text-align: center;
+}
+
+.nome,
+.email,
+.assunto,
+.mensagem {
+  width: 656px;
+  height: 56px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.btn-enviar {
+  width: 165px;
+  height: 51px;
+  font-weight: 400;
+  line-height: 18.78px;
+  color: #ffffff;
+  background-color: #2a7ae4;
+  border: none;
+  font-family: "Raleway", sans-serif;
+}
+
+.titulo_xpprofissional {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.83px;
+  color: var(--cor-do-link);
+  margin-bottom: 10px;
+}
+
+.subtitulo_xp {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.78px;
+  margin-bottom: 30px;
+}
+
+.caixa_xp {
+  display: block;
+  padding: 16px;
+  width: 348px;
+  height: 112px;
+}
+
+.numero-secreto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+}
+
+.redimensionar {
+  width: 26px;
+  height: 25px;
+}
